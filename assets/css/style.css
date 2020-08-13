@@ -9,5 +9,22 @@ body {
     background-color: cyan;
     padding: 0;
     margin: 0;
+}
 
+.grid-parent {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+
+header {
+    background-color: orange;
+    border-bottom: ;
+}
+
+main {
+    background-color: cyan;
+}
+
+footer {
+    background-color: darkgrey;
 }
